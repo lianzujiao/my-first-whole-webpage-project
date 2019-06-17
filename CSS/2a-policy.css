@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	width: 1300px;
+	height: autopx;
+	background-image: url(../picture/article/background.jpg);
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+}
+.navi {
+	width: 1300px;
+	height: 80px;
+	margin: 40px 0 0 0;
+	background-image: url(../picture/article/navi-background.png);
+	font-family:pingfang;
+	font-size: 25px;
+}
+.navi-left {
+	list-style-type: none;
+	margin-left: -35px;
+	float: left;
+	height: 80px;
+	width: 500px;
+	margin-top: -5px;
+}
+.navi-li {
+	float: left;
+	width: 158px;
+}
+.navi-li-a {
+	display: block;
+	color: #FBFBFB;
+	text-decoration: none;
+	line-height: 50px;
+}
+.navi-li-a:hover {
+	border-radius: 20px;
+	
+	font-size: 26px;
+	background-color: rgba(189,187,187,0.8);
+}
+.now-a {
+	border-radius: 20px;
+	background-color: rgba(189,187,187,0.8);
+	color: black;
+}
+.navi_li_div {
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+.navl-img {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	top: -10px;
+	transition: all 0.6s ease-in-out;
+}
+.navl-img:hover {
+	transform: scale(1.1);
+}
+.navi_right {
+	float: right;
+	list-style-type: none;
+	height: 80px;
+	width: 475px;
+	margin-top: -160px;
+}
+.po_tit{width: 1065px;
+    margin: 0 auto;
+    display: block;
+	box-shadow: 5px 8px 5px rgba(156,148,149,0.5)
+	}
+.po_tit:hover{
+	box-shadow:none;}
+/*最新通告*/
+.tg{
+	width: 1300px;
+    margin-top: 20px;
+	height:460px}
+.tg_tit{
+	background-image:url(../picture/policy/tg_tit.png);
+	height: 81px;
+    background-size: 1100px 60px;
+    background-repeat: no-repeat;
+    width: 1100px;
+    margin: auto;
+    padding-top: 1px;
+	}
+.tg_tit>p{
+	font-family: 楷体;
+   font-size: 22px;
+    color: white;
+    width: 200px;
+   
+    margin-left: 485px;
+    margin-top: 10px;}
+.tg_ul{
+	width: 1100px;
+    margin: 0 auto;
+	}
+.tg_ul>ul{
+	list-style: none;
+    width: 1100px;
+    padding-left: 0;
+	}
+.tg_ul>ul>li{
+	float: left;
+    width: 33%;
+    
+    height: 320px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+	}
+.tg_block{width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.tg_block_img{
+	width: 300px;
+    display: block;
+    margin: 0 auto;
+	    margin-top: 15px;}
+.tg_p{
+	width: 300px;
+    margin: 10px auto;
+    font-size: 15px;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 25px;}
+
+/*通告结束*/
+/*政策解读开始*/
+.jd{
+	height: 630px;
+    width: 1300px;}
+.jd_tit{
+	background-image:url(../picture/policy/jd_f.png);
+	width: 357px;
+    height: 101px;
+    margin: 0 auto;}
+.jd_h{
+	margin-left: 120px;
+    font-family: 楷体;
+    font-size: 22px;
+    width: 220px;
+    text-align: center;
+   
+   
+    border-radius: 10px;
+    background-color: rgba(249,66,6,1);
+    color: white;
+	
+	}
+.jd_con{
+	
+    width: 1050px;
+    margin: 0 auto;
+    height: 420px;
+    border-radius: 10px;
+	 background: -webkit-linear-gradient(rgba(0,0,0,0.2), white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.2), white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.2), white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(201,201,201,0.2)); /* 标准的语法（必须放在最后） */
+	padding: 5px 0px 0 10px;
+	}
+.con_h{
+	font-size: 18px;
+    font-weight: bold;
+}
+.con_p{line-height: 23px;
+    font-size: 15px;}
+.jd_more{font-weight: bold;
+    text-align: right;}
+.jd_more>a{
+	text-decoration:none;
+	color:rgba(125,0,0,0.8);
+	letter-spacing: 5px;
+	}
+.jd_more>a:hover{
+	text-decoration:underline;
+	
+	}
+.tl{width: 1300px;
+    height:800px;
+}
+.tl_tit{
+	background-image:url(../picture/policy/jd.png);
+	background-image: url(../picture/policy/jd.png);
+    width: 1100px;
+    height: 50px;
+    background-size: 1100px 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 楷体;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+	
+	}
+.tl_con{
+	background-color:white;
+	width: 882px;
+    height: 690px;
+    margin: auto;
+	}
+.contract{
+	background-image:url(../picture/policy/tl_back.png);
+	background-repeat: no-repeat;}
+.tl_con_h{
+	font-size: 20px;
+    text-align: center;
+	}
+.con_p{
+	padding: 10px 20px;
+	}
+.tl_con_p{
+	text-indent: 32px;
+    line-height: 23px;
+    letter-spacing: 2.5px;
+}
+.tl_more{
+	text-decoration:none;
+	float:right;
+	color:rgba(125,0,0,1.00)
+	}
+/*政策解读结束*/
+/*底部开始*/
+.link {
+	width: 100%;
+	height: 320px;
+	position: relative;
+	top: 20px;
+	
+}
+.link_img {
+	background-image: url(../picture/home/footer2.png);
+	height: 230px;
+}
+.link_top {
+	width: 960px;
+	height: 170px;
+	margin-top: 20px;
+	margin-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.link_bottom {
+	width: 960px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 350px;
+	padding-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	
+}
+.link_top_ul {
+	width: 850px;
+	height: 170px;
+	list-style: none;
+	display: block;
+	margin-top: 0px;
+	margin-left: -40px;
+	position: relative;
+	top: 25px;
+}
+.link_top_ul>li {
+	width: 235px;
+	height: 100%;
+	float: left;
+}
+.lt_all>li {
+	height: 28px;
+	list-style: none;
+}
+.lt_all>li>a {
+	color: white;
+}
+.lt_all>li>a:hover {
+	text-decoration: none;
+}
+.link_bottom>a {
+	color: white;
+	line-height: 30px;
+}
+.link_bottom>a:hover {
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 0px;
+	font-family: 微软雅黑;
+	font-size: 17px;
+	padding-left: 40%;
+	padding-top: 85px;
+}
+/*回到顶部开始*/
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: -20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(94,91,91,1.00) url(../picture/article/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 200;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
+	opacity: .8;
+}
+.no-touch .cd-top:hover {
+	background-color: #e86256;
+	opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+.cd-top {
+	right: 20px;
+	bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.cd-top {
+	height: 60px;
+	width: 60px;
+	right: 10px;
+	bottom: 30px;
+}
+}
+	/*回到顶部结束*/

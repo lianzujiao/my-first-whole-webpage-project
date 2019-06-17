@@ -1,0 +1,584 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	width: 1300px;
+	height: autopx;
+	background-image: url(../picture/article/background.jpg);
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+}
+.navi {
+	width: 1300px;
+	height: 80px;
+	margin: 40px 0 0 0;
+	background-image: url(../picture/article/navi-background.png);
+	font-family: pingfang;
+	font-size: 25px;
+}
+.navi-left {
+	list-style-type: none;
+	margin-left: -35px;
+	float: left;
+	height: 80px;
+	width: 500px;
+	margin-top: -5px;
+}
+.navi-li {
+	float: left;
+	width: 158px;
+}
+.navi-li-a {
+	display: block;
+	color: #FBFBFB;
+	text-decoration: none;
+	line-height: 50px;
+}
+.navi-li-a:hover {
+	border-radius: 20px;
+	font-size: 26px;
+	background-color: rgba(189,187,187,0.8);
+}
+.now-a {
+	border-radius: 20px;
+	background-color: rgba(189,187,187,0.8);
+	color: black;
+}
+.navi_li_div {
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+.navl-img {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	top: -10px;
+	transition: all 0.6s ease-in-out;
+}
+.navl-img:hover {
+	transform: scale(1.1);
+}
+.navi_right {
+	float: right;
+	list-style-type: none;
+	height: 80px;
+	width: 475px;
+	margin-top: -160px;
+}
+/*非遗名录开始*/
+.fy_ml {
+	height: 200px;
+	background-image: url(../picture/feiyi/fy_ml_back.png);
+	background-size: 1300px;
+	padding: 55px 50px 0 50px;
+}
+.ml_child {
+	float: left;
+}
+.ml_a {
+	width: 980px;
+	height: 90px;
+	margin: 30px 0 0 100px;
+}
+.ml_a>a {
+	text-decoration: none;
+	font-family: 黑体;
+	color: black;
+	font-size: 18px;
+	margin-right: 40px;
+	line-height: 50px;
+}
+.ml_a>a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+/*非遗名录结束*/
+/*非遗简介开始*/
+.jianjie {
+}
+.jian {
+	width: 1250px;
+	height: 230px;
+	padding-left: 50px;
+	padding-top: 50px;
+	background-image: url(../picture/feiyi/jian_back.png);
+	background-repeat: no-repeat;
+}
+.jian1 {
+	background-image: url(../picture/feiyi/jian_tit_back.png);
+	width: 162px;
+	height: 181px;
+}
+.jian1>p {
+	font-size: 22px;
+    font-family: pingfang;
+   
+    line-height: 160px;
+    text-align: center;
+}
+.jian2 {
+	width: 710px;
+	text-indent: 36px;
+	font-family: 宋体;
+	font-size: 18px;
+	font-weight: thin;
+	font-weight: 400;
+
+	line-height: 28px;
+	margin: 10px 0 0 50px;
+}
+.jian3 {
+	width: 325px;
+	margin-top: -50px;
+}
+.jian3>img {
+	width: 330px;
+	height: 400px;
+}
+.jian_child {
+	float: left;
+}
+/*非遗简介结束*/
+/*传统技艺开始*/
+.ctjy {
+	background-image: url(../picture/feiyi/mei.png);
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 600px;
+	background-size: 300px;
+	background-position: 0px 50px;
+}
+.jy_tit {
+	background-image: url(../picture/feiyi/lit_back.png);
+	width: 202px;
+	height: 61px;
+	margin: 0 600px;
+}
+.tit_p {
+	font-family: pingfang;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: -105px;
+	color: white;
+}
+.jy_qie {
+	width: 850px;
+	height: 430px;
+	margin: auto;
+	margin: 50px 300px;
+}
+.news {
+}
+#container {
+	height: auto;
+	width: 1200px;
+	margin: auto;
+	position: relative;
+	left: -30px;
+}
+#btn {
+	display: inline-block;
+	width: 550px;
+    height: 130px;
+    font-family: pingfang;
+    font-size: 18px;
+  
+    margin-left: 16%;
+}
+.baodao {
+	position: relative;
+	left: 80px;
+}
+.baodao2 {
+	position: relative;
+	right: -60px;
+}
+#tab {
+	width: 1090px;
+	height: 200px;
+	position: relative;
+}
+.tab_btn {
+	display: block;
+	float: left;
+	width: 25px;
+	height: 110px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+	margin-left: 50px;
+}
+.tab_btn:hover {
+	color: #8E090B;
+}
+.tab_btn:active {
+	background-image: url(../picture/feiyi/fy_jy_tit_bavk.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 30px 60px;
+	background-position: 10px 50px;
+}
+.tab_div {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.curr_btn {
+	background-image: url(../picture/feiyi/fy_jy_tit_bavk.png);
+	color: #8E090B;
+	background-repeat: no-repeat;
+	background-size: 30px 60px;
+	background-position: 10px 50px;
+}
+.curr_div {
+	display: block !important;
+}
+.jy_con {
+	float: left;
+}
+.jy_img {
+	width: 190px;
+}
+.jy_tit1_back {
+	position: relative;
+	top: -100px;
+	height: 45px;
+	right: 10px;
+}
+.jy_p {
+	width: 420px;
+	padding: 20px 0 0 50px;
+}
+.jy_p>a {
+	font-size: 17px;
+    font-family: 黑体;
+    /* writing-mode: vertical-lr; */
+    color: rgba(125,0,0,1.00);
+    text-decoration: none;
+    /* letter-spacing: 5px; */
+    /* margin-top: 90px; */
+    width: 17px;
+    font-weight: 520;
+    position: relative;
+    top: -80px;
+}
+.jy_p>a:hover {
+	opacity: 0.8;
+}
+.jy_p>p {
+	font-size: 14px;
+	font-family: 黑体;
+	
+	/* width: 200px; */
+	height: 190px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	float: left;
+}
+.jy_tit2 {
+	width: 200px;
+	writing-mode: vertical-lr;
+}
+.tit2_h {
+	font-family: 隶书;
+	font-size: 22px;
+}
+.tit2_p {
+	font-size: 14px;
+	margin: 10px 0 0 -20px;
+	color: rgba(125,0,0,0.6);
+}
+.jy_img>p {
+	font-family: pingfang;
+	font-size: 17px;
+	width: 70px;
+	text-align: center;
+	background-color: rgba(125,0,0,1.00);
+	height: 22px;
+	padding-top: 8px;
+	color: white;
+	margin: -5px 0 0 60px;
+}
+/*传统技艺结束*/
+/*非遗旅游开始*/
+
+.fyly {
+	width: 1300px;
+	margin-top: -80px;
+	height:800px;
+	background-image:url(../picture/feiyi/ly_back.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+.ly_container {
+	width: 1300px;
+	margin: auto;
+	height: 820px;
+}
+.ly_tit {
+	background-image: url(../picture/feiyi/lit_back.png);
+	width: 202px;
+	height: 62px;
+	margin: auto;
+}
+.ly_tit>p {
+	font-family: pingfang;
+	font-size: 26px;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+}
+.ly_tit_back {
+	height: 45px;
+	margin: auto;
+	width: 241px;
+	display: block;
+}
+.ly_ul1 {
+	list-style: none;
+	width: 100%;
+	margin-left: -35px;
+}
+.ly_li {
+	
+	width: 33%;
+	float: left;
+	height: 250px;
+}
+
+.top_img {
+	border-radius: 100px;
+	width: 190px;
+	height: 190px;
+
+	float: left;
+	transition: All 2s ease-in-out;
+            -webkit-transition: All 2s ease-in-out;
+            -moz-transition: All 2s ease-in-out;
+            -o-transition: All 2s ease-in-out;
+}
+.top_img:hover{
+	transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+	}
+.top_tit {
+	float: left;
+	writing-mode: vertical-lr;
+	font-family: pingfang;
+	font-size: 20px;
+	height: 120px;
+}
+.top_tit2 {
+	float: left;
+	writing-mode: vertical-lr;
+	font-family: pingfang;
+	font-size: 20px;
+	margin: 90px 0 0 -85px;
+}
+.top_p {
+	color: rgba(125,0,0,0.9);
+	font-family: pingfang;
+	width: 175px;
+	float: left;
+	margin-left: -25px;
+	font-size: 15px;
+	text-indent: 34px;
+}
+.top_p2 {
+	margin: 135px 0 0 0;
+	width: 230px;
+}
+.top_tit22 {
+	height: 150px;
+	margin: 70px 0 0 -10px;
+}
+.top_img2 {
+	margin: -180px 0 0 250px;
+}
+.top_block1 {
+	position: relative;
+    top: 30px;
+}
+.top_block2 {
+	position: relative;
+    right: 7px;
+    bottom: 20px;
+}
+.top_block3 {
+	position: relative;
+    top: 120px;
+    left: 30px;
+}
+.top_block4{
+	position: relative;
+    left: 100px;
+	bottom: 20px;
+}
+.top_block5 {
+	position: relative;
+    bottom: 100px;
+    left: 230px;
+}
+.top_p3 {
+	margin: 40px 0 0 0;
+}
+.top_tit3 {
+	margin-left: -10px;
+}
+.top_img3 {
+	margin: -30px 0 0 -20px;
+}
+.ly_z {
+	margin-left: 30px;
+	margin-top: -35px;
+}
+.top_p4 {
+	width: 200px;
+}
+.top_tit4 {
+	height: 150px;
+	margin-left: -10px;
+}
+.top_img4 {
+	margin: -10px -20px;
+}
+.top_p5 {width: 220px;
+}
+.top_tit5 {
+	margin-left: -15px;
+}
+.top_img5 {
+	margin: -20px 0 0 -20px;
+}
+/*非遗旅游结束*/
+/*底部开始*/
+.link {
+	width: 100%;
+    height: 290px;
+    position: relative;
+    top: -20px;
+}
+.link_img {
+	background-image: url(../picture/home/footer2.png);
+	height: 230px;
+}
+.link_top {
+	width: 960px;
+	height: 170px;
+	margin-top: 20px;
+	margin-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.link_bottom {
+	width: 960px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 350px;
+	padding-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	
+}
+.link_top_ul {
+	width: 850px;
+	height: 170px;
+	list-style: none;
+	display: block;
+	margin-top: 0px;
+	margin-left: -40px;
+	position: relative;
+	top: 25px;
+}
+.link_top_ul>li {
+	width: 235px;
+	height: 100%;
+	float: left;
+}
+.lt_all>li {
+	height: 28px;
+	list-style: none;
+}
+.lt_all>li>a {
+	color: white;
+}
+.lt_all>li>a:hover {
+	text-decoration: none;
+}
+.link_bottom>a {
+	color: white;
+	line-height: 30px;
+}
+.link_bottom>a:hover {
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 0px;
+	font-family: 微软雅黑;
+	font-size: 17px;
+	padding-left: 40%;
+	padding-top: 90px;
+}
+/*回到顶部开始*/
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: -20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(94,91,91,1.00) url(../picture/article/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 200;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
+	opacity: .8;
+}
+.no-touch .cd-top:hover {
+	background-color: #e86256;
+	opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+.cd-top {
+	right: 20px;
+	bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.cd-top {
+	height: 60px;
+	width: 60px;
+	right: 10px;
+	bottom: 30px;
+}
+}
+	/*回到顶部结束*/

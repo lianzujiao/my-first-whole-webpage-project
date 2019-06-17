@@ -1,0 +1,579 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	width: 1300px;
+	height: autopx;
+	background-image: url(../picture/article/background.jpg);
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+}
+.navi {
+	width: 1300px;
+	height: 80px;
+	margin: 40px 0 0 0;
+	background-image: url(../picture/article/navi-background.png);
+	font-family: pingfang;
+	font-size: 25px;
+}
+.navi-left {
+	list-style-type: none;
+	margin-left: -35px;
+	float: left;
+	height: 80px;
+	width: 500px;
+	margin-top: -5px;
+}
+.navi-li {
+	float: left;
+	width: 158px;
+}
+.navi-li-a {
+	display: block;
+	color: #FBFBFB;
+	text-decoration: none;
+	line-height: 50px;
+}
+.navi-li-a:hover {
+	border-radius: 20px;
+	
+	font-size: 26px;
+	background-color: rgba(189,187,187,0.8);
+}
+.now-a {
+	border-radius: 20px;
+	background-color: rgba(189,187,187,0.8);
+	color: black;
+}
+.navi_li_div {
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+.navl-img {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	top: -10px;
+	transition: all 0.6s ease-in-out;
+}
+.navl-img:hover {
+	transform: scale(1.1);
+}
+.navi_right {
+	float: right;
+	list-style-type: none;
+	height: 80px;
+	width: 475px;
+	margin-top: -160px;
+}
+
+/*特色节日*/
+.tsjr {
+	width: 1200px;
+    height: 630px;
+    
+    margin: auto;
+}
+.ts_child{
+	float:left;
+	}
+.left_child{
+	}
+.left_child_title{
+	background-image:url(../picture/festival/tsjr_tit_back.png);
+	background-size: 360px 106px;
+    width: 360px;
+	}
+.left_child_title>p{
+	width: 360px;
+    line-height: 106px;
+    font-family: pingfang;
+    font-size: 22px;
+    text-align: center;
+   
+    padding-left: 40px;
+    padding-top: 6px;
+    letter-spacing: 5px;
+	}
+.left_child_ul{
+	list-style:none;
+	width: 735px;
+    height: 480px;
+    margin-top: -60px;
+	}
+.ts_left_li{
+	
+	float: left;
+    width: 245px;
+   
+   
+	}
+.ts_left_li1{
+	margin-top: 70px;
+	}
+.ts_left_li2{
+	margin-top: 35px;
+	}
+.ts_left_con{
+	width: 222px;
+    height: 396px;
+    border: 1px solid rgba(128,24,24,1.00);
+    border-radius: 60px;
+    margin: auto;
+	overflow:hidden;
+	background-color:white;
+	}
+.ts_top{
+	display:block;
+	width:223px;
+	margin:auto;
+	}
+.ts_le_tit{
+	background-image:url(../picture/festival/li_tit_ba.png);
+	background-position:center;
+	background-size: 210px 34px;
+    line-height: 34px;
+    font-family: pingfang;
+    text-align: center;
+    color: white;
+    
+	}
+.ts_le_p{
+	width: 218px;
+	height: 128px;
+    font-family: 黑体;
+    font-size: 14px;
+    text-indent: 28px;
+    letter-spacing: 1px;
+    margin: auto;
+	}
+.ts_more{
+	margin: auto;
+    display: block;
+    margin-top: 10px;
+	}
+.ts_a{
+	width: 42px;
+    height: 36px;
+    margin: auto;
+	}
+.ts_a:hover{
+	opacity:0.8;
+	}
+.right_child{
+	}
+.ts_ri_ul{
+	margin: 85px 0 0 -10px;
+	list-style:none;
+	}
+.ts_ri_ul>li{
+	 width: 415px;
+    height: 180px;
+	}
+.ts_ri_contract{
+	 width: 417px;
+    height: 140px;
+	box-shadow: 5px 5px 10px rgba(139,138,138,0.8);
+	background-color:rgba(224,225,218,0.6)
+	}
+.ts_ri{
+	float:left}
+.ts_ri_img>img{
+	box-shadow: 5px 5px 10px rgba(139,138,138,0.8);
+	width: 187px;
+    height: 135px;
+	}
+.ts_ri_p{width: 220px;
+    font-family: 黑体;
+    padding: 0px 0 0 10px;
+
+}
+.ts_ri_p>p{
+	font-size: 14px;
+    margin-top: -10px;
+	}
+.ts_ri_x{
+	float:right;
+	width:45px;
+	height: 20px;
+	border: 1px solid black;
+    border-radius: 8px;
+	margin: -15px 10px;
+	}
+.ts_ri_x>a{
+	text-decoration:none;
+	color:black;
+	}
+ .ts_ri_x:hover{
+	background-color:rgba(156,153,153,0.4);
+	
+	}
+.ts_ri_x>a>p{
+	text-align: center;
+  font-size: 10px;
+ 
+    margin-top: 3px;
+	
+	}
+/*特色节日结束*/	
+.jrcd{
+	width: 1200px;
+    height: 600px;
+    margin: auto;
+	}
+.cd_tit{
+	background-image:url(../picture/festival/jrcd_tit_back.png);
+	background-size: 360px 106px;
+    width: 360px;
+	}	
+.cd_tit>p{
+	width: 360px;
+    line-height: 106px;
+    font-family: pingfang;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 6px;
+    letter-spacing: 5px;
+	}
+
+.cd_ul{
+	list-style:none;
+	}
+.cd_ul>li{
+	width: 20%;
+    height: 450px;
+    float: left;
+	}
+.cd_block{
+	width: 155px;
+    height: 450px;
+    border: 1px solid rgba(125,0,0,1.00);
+	border-width: 2px;
+    margin: auto;
+    border-radius: 60px;
+	}
+.block_back{
+	width: 155px;
+    margin: -15px 0 0 -2px;
+    border: 1px solid rgba(125,0,0,1.00) ;
+    border-radius: 100px;
+    border-width: 2px;
+	}
+.block_tit{
+	margin: -30px 0 0 55px;
+	}
+.block_foot_tit{
+	
+	}
+.block_foot_tit>h3{
+	background-image:url(../picture/festival/cd_tit-back.jpg);
+	width: 150px;
+    line-height: 80px;
+    margin: -20px auto;
+    text-align: center;
+    background-position: right bottom;
+    background-size: 90px 40px;
+    background-repeat: no-repeat;
+    font-family: pingfang;
+    font-size: 18px;
+   
+	font-weight: 100;
+	}
+.block_foot_tit>p{
+	font-size: 15px;
+    font-family: 黑体;
+    
+    width: 135px;
+    height: 200px;
+    line-height: 22px;
+   
+    margin: 10px auto;
+    text-indent: 30px;
+	}
+.block_foot_tit>a{
+	margin: -13px 0 0 77px;
+    width: 10px;
+    height: 30px;
+    display: block;
+	
+	}
+.block_foot_tit>a:hover{
+	opacity:0.4;
+
+
+	}
+.block_foot_tit>a>img{
+	
+    width: 10px;
+	}
+/*节日穿戴结束*/
+/*节日美食开始*/
+.jrms{
+	width: 1200px;
+    height: 800px;
+    margin: auto;}
+.ms_top{
+	background-image:url(../picture/festival/ms_tit_back.png);
+	background-size: 360px 106px;
+    width: 360px;}
+.ms_top>p{
+	width: 360px;
+    line-height: 106px;
+    font-family: pingfang;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 6px;
+    letter-spacing: 5px;}
+.ms_container{}
+.ms_ul{
+	list-style:none;}
+.ms_li{
+	
+    float: left;
+    width: 50%;
+    height: 210px;
+	}
+.ms_li>div{
+	float:left;
+		}
+.ms_li_tit{
+	font-family: pingfang;
+	}
+.tit1{
+	position: relative;
+    top: 110px;
+    
+	}
+.tit1_h{
+	font-size:20px;
+	
+	}
+.tit1_p{
+	font-size: 17px;
+    color: rgba(125,0,0,1);
+	margin-top: -20px;
+	}
+.ms_li_z1{
+	position: relative;
+    top: 100px;
+    right: 180px;
+	}
+.tit6{}
+.img6{}
+.ms_li_z6{
+	margin-left: -10px;
+	}
+
+.block_img{
+	border: 2px solid rgba(32,214,18,1.00);
+    border-radius: 120px;
+	 transform:scale(1);
+ transition:all 0.8s ease-in-out;
+ overflow:hidden;
+	}
+.block_img:hover{
+	transform: scale(1.15);
+	transition: all 0.8s ease-in-out;
+	opacity:0.7;
+	}
+.tit6{
+	position: relative;
+    top: -250px;
+    left: 300px;}
+
+
+.tit6_h{
+	font-size: 18px;}
+.tit6_p{
+	font-size: 17px;
+    color: rgba(125,0,0,1);
+	    margin-left: -20px;
+    margin-top: -20px;
+	}
+.ms_li_z2{
+	position: relative;
+    top: 80px;
+	}
+.tit2{
+	position: relative;
+    top: 50px;
+    left: 50px;
+	}
+.ms_li_z5{
+	margin-top: 80px;
+	}
+.tit5{
+	width: 140px;
+    text-align: left;
+    margin-top: 40px;}
+.tit3{
+	width:180px;
+	margin-top: 30px;
+	}
+.ms_li_z3{
+	margin-top: 100px;}
+.tit1_h3{
+	
+	text-align:center;
+	font-size:18px;}
+.ms_li_z4{
+	margin-top:100px;
+	}
+.tit4{
+	    width: 150px;
+    margin-top: 110px;
+	}
+.li1{position: relative;
+    left: -30px;
+	top: -60px;}
+.li2{
+	position: relative;
+    right: 100px;
+    top: -30px;}
+.li3{position: relative;
+    top: -30px;
+    left: 50px;}
+.li4{position: relative;
+    top: -30px;
+    left: 20px;}
+.li5{
+	position: relative;
+    top: -30px;
+    left: 180px;}
+.li6{position: relative;
+    left: 30px;
+    top: -60px;}
+.shi_img{
+	position: relative;
+    left: 500px;
+    bottom: 480px;
+    height: 265px;
+	}
+/*节日美食结束*/
+/*底部开始*/
+.link {
+	width: 100%;
+	height: 320px;
+	position: relative;
+	top: 20px;
+}
+.link_img {
+	background-image: url(../picture/home/footer2.png);
+	height: 230px;
+}
+.link_top {
+	width: 960px;
+	height: 170px;
+	margin-top: 20px;
+	margin-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+}
+.link_bottom {
+	width: 960px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 350px;
+	padding-left: 350px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	
+}
+.link_top_ul {
+	width: 850px;
+	height: 170px;
+	list-style: none;
+	display: block;
+	margin-top: 0px;
+	margin-left: -40px;
+	position: relative;
+	top: 25px;
+}
+.link_top_ul>li {
+	width: 235px;
+	height: 100%;
+	float: left;
+}
+.lt_all>li {
+	height: 28px;
+	list-style: none;
+}
+.lt_all>li>a {
+	color: white;
+}
+.lt_all>li>a:hover {
+	text-decoration: none;
+}
+.link_bottom>a {
+	color: white;
+	line-height: 30px;
+}
+.link_bottom>a:hover {
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 0px;
+	font-family: 微软雅黑;
+	font-size: 17px;
+	padding-left: 40%;
+	padding-top: 90px;
+}
+/*回到顶部开始*/
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: -20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(94,91,91,1.00) url(../picture/article/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 200;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
+	opacity: .8;
+}
+.no-touch .cd-top:hover {
+	background-color: #e86256;
+	opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+.cd-top {
+	right: 20px;
+	bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.cd-top {
+	height: 60px;
+	width: 60px;
+	right: 10px;
+	bottom: 30px;
+}
+}
+	/*回到顶部结束*/

@@ -1,0 +1,177 @@
+#map{
+	float: left;
+	width: 550px;
+	height: 330px;
+	background-image:url(../picture/cchd/whstbh/gxdt.png);
+	background-size: 100% 100%;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#map div>img{
+	float: left;
+	
+}
+#map div{
+	float: left;
+	width: auto;
+	border-radius: 50%;
+	padding: 11px;
+}
+#map div:hover{
+	background: black;
+}
+#map1{
+	position: absolute;
+	margin-left: 375px;
+	margin-top: -20px;
+}
+#map2{
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 150px;
+}
+#map3{
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 150px;
+}
+#map4{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 70px;
+}
+#map img:hover{
+	transition:all 0.8s;
+    transform: scale(1.4);
+    opacity: 0.35;    
+}
+#map>a>div:hover .ppt{
+    display: block;
+}
+#map .ppt:hover #map>div>img{
+		transition:all 0.8s;
+     transform: scale(1.4);
+    opacity: 0.35;  
+}
+
+
+.ppt{
+	position: absolute;
+	font-family: "黑体";
+	font-size: 36px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	display: none;
+}
+
+#map-text{
+	float: left;
+	margin-left: 80px;
+	width: 500px;
+	font-family:黑体;
+}
+#map-text>p{
+	font-size: 22px;
+}
+
+
+.wh-img{
+	float: left;
+	margin-left: 120px;
+	width: 465px;
+	height: 180px;
+	margin-top: 140px;
+}
+.wh-img div{
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin-left: 20px;
+}
+.wh-img div>h3{
+	float: left;
+	width: 220px;
+	line-height: 20px;
+	font-family: 黑体;
+	margin-top: 0;
+	color: #7d141d;
+}
+.wh-img div>p{
+	float: left;
+	width: 200px;
+	margin: 0;
+	
+	font-family: pingfang;
+    font-size: 15px;
+    letter-spacing: 2px;
+	
+}
+.wh-img>a>img{
+	float: left;
+	width: 210px;
+	margin-left: 20px;
+	
+}
+
+
+
+#ct{
+	float: left;
+	margin-top: 30px;
+	width: 1300px;
+}
+#ct-img{
+	float: left;
+	margin-left: 110px;
+	width: 1080px;
+}
+#ct-img div>img{
+	float: left;
+	width: 360px;
+	height: 240px;
+}
+.imggg{
+	float: left;
+	z-index: 3;
+}
+.imggg>img:hover{
+	opacity: 0.35;
+	
+}
+.imggg:hover{
+	background: #000000;
+}
+.imggg:hover .ptext{
+	display: block;
+}
+.ptext:hover+img{
+	opacity: 0.35;
+}
+
+
+#ct-img>p{
+	float: left;
+	font-family: 黑体;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+
+.ptext{
+	font-family: "黑体";
+	color: #FFFFFF;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 100px;
+	width: 340px;
+	margin-left: 20px;
+	display: none;
+	z-index: 2;
+}
+
+
+
+
+
+
+
